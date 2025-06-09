@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSfitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/splide-4.1.3/dist/css/splide.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-styles">
+            <div class="header-content">
+                <h1 class="logo">TSfitness</h1>
+                <ul class="navigation">
+                    <li ><a href="/treners/index.html" class="nav_el">тренеры</a></li>
+                    <li class="dropdown"><a href="#!" class="nav_el">направления</a>
+                        <ul class="optional_menu dropdown-conten">
+                            <li><a href="#!">Functional</a></li>
+                            <li><a href="/Stretching/index.html">Stretching</a></li>
+                            <li><a href="#!">Yoga</a></li>
+                            <li><a href="#!">TRX</a></li>
+                            <li><a href="#!">Pilates</a></li>
+                            <li><a href="#!">Boxing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/abonements/index.html" class="nav_el">абонементы</a></li>
+                    <li><a href="#!" class="nav_el">студии</a></li>
+                    <li><a href="#footer" class="nav_el">контакты</a></li>
+                </ul>
+                <p class="number_phone">+7 (966) 869-94-46</p>
+                <img src="/Icons/Whatsapp.png" class="icons_wp">
+                <img src="/Icons/Telegram.png" class="icons_tg">
+                <img src="/Icons/menu.png" class="menu_mobile" id="menu_mobile">
+            </div>
+        </div>
+
+        <div class="header_mobile" id="header_mobile">
+            
+                    <ul class="navigation-mobile">
+                        <li ><a href="/treners/index.html" class="nav_el_mobile">тренеры</a></li>
+                        
+                        <li><a href="#!" class="nav_el_mobile">functional</a></li>
+                        <li><a href="/Stretching/index.html" class="nav_el_mobile">stretching</a></li>
+                        <li><a href="#!" class="nav_el_mobile">yoga</a></li>
+                        <li><a href="#!" class="nav_el_mobile">TRX</a></li>
+                        <li><a href="#!" class="nav_el_mobile">pilates</a></li>
+                        <li><a href="#!" class="nav_el_mobile">boxing</a></li>
+                            
+                        
+                        <li><a href="/abonements/index.html" class="nav_el_mobile">абонементы</a></li>
+                        <li><a href="#!" class="nav_el_mobile">студии</a></li>
+                        <li><a href="#footer" class="nav_el_mobile">контакты</a></li>
+                </ul>
+                <p class="number_phone_mobile">+7 (966) 869-94-46</p>
+                <div class="flexbox_mobile">
+                    <img src="/Icons/Whatsapp.png" class="icons_wp_mobile">
+                    <img src="/Icons/Telegram.png" class="icons_tg_mobile">
+                </div>
+                
+                
+
+            
+        </div>
+    </header>
+    
+    <section id="modalWin" class="modalWin">
+        <div class="containerWin"
+                            data-aos="zoom-in"
+                            data-aos-once="true"
+                            ata-aos-duration="10000"
+                            data-aos-offset="0"
+                            src="/Photo/woman_music.png">
+            <h1>ЛЕТО В РИТМЕ ФИТНЕСА</h1>
+            <P>Только в июне и июле: скидка 20% на абонементы в студию фитнеса и растяжки!</P>
+            <button><a href="/abonements/index.html"><span class="text">АБОНЕМЕНТЫ</span></a></button>
+            <img class="palm" src="/Photo/tropical-coconut-palm.png">
+            <img class="WomanModalWin" src="/Photo/WomanModalWin.png">
+            <img id="closeBTN" class="crestic" src="/Icons/crestic.png">
+
+        </div>
+    </section>
+
+    <section id="formWin" class="formWin">
+        <div class="containerFormWin">
+                            
+            <h1>СПАСИБО ЗА ЗАЯВКУ!</h1>
+            <p>В ближайшее время наши администраторы свяжутся с вами</p>
+            <img id="close" class="close" src="/Icons/crestic.png">
+
+        </div>
+    </section>
+
+    <main>
+        <div class="main-styles">
+            <div class="main-content">
+                <section  id="slider-container">
+                    <div id="top">
+                        <img src="/Icons/arrow.png" class="arrow arrow-left">
+                        <div class="slider">
+                            <div class="slide" id="slide_1">
+                                <P> СТУДИЯ ФИТНЕСА И РАСТЯЖКИ Г. МОСКВА</P>
+                                <h1>TSfitness</h1>
+                                <button><span class="text">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</span></button>
+                                <img src="/Photo/man_and_woman_1.png">
+                            </div>
+                            <div class="slide" id="slide_2">
+                                <P> НАЧНИ СВОЙ ПУТЬ К ЗДОРОВЬЮ И КРАСОТЕ УЖЕ СЕГОДНЯ</P>
+                                <h3  id="text_01">Запишитесь на первое занятие со скидкой 50%</h3>
+                                
+                                <button><span class="text">ЗАПИСАТЬСЯ СЕЙЧАС</span></button>
+                                <img src="/Photo/things.png">
+                            </div>
+                            <div class="slide" id="slide_3">
+                                <P>РАСТЯЖКА - ЭТО ЛЁГКОСТЬ И ГИБКОСТЬ</P>
+                                <h3  id="text_01">Улучшите осанку, избавьтесь от боли в спине, увеличьте подвижность суставов</h3>
+                                
+                                <button><span class="text">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</span></button>
+                                <img src="/Photo/woman_stretching_1.png">
+                            </div>
+                            <div class="slide" id="slide_4">
+                                <P>ПЕРСОНАЛЬНЫЕ ПРОГРАММЫ</P>
+                                <h3  id="text_01">Достигайте своих целей быстрее с помощью персонализированного подхода</h3>
+                                
+                                <button><span class="text">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</span></button>
+                                <img src="/Photo/man_1.png">
+                            </div>
+
+                            <div class="slide" id="slide_5" >
+                                <P>ЗАПИШИТЕСЬ УЖЕ СЕГОДНЯ</P>
+                                <h3  id="text_01">Свяжитесь с нами или запишитесь на пробное занятие — первый шаг к новой жизни!</h3>
+                                
+                                <button><span class="text">ЗАПИСАТЬСЯ НА ПРОБНОЕ ЗАНЯТИЕ</span></button>
+                                <img src="/Photo/zal.png">
+                            </div>
+                        </div>
+                        <img src="/Icons/arrow — копия.png" class="arrow arrow-right">
+
+                    </div>
+                    <div id="bottom"></div>
+
+                </section>
+
+                <section class="aboutUs">
+                    <div class="container_1">
+                        <h1 data-aos="fade-down"
+                            data-aos-duration="1000"
+                            data-aos-offset="350"
+                            data-aos-once="true">TSFitness — это сообщество увлеченных спортом людей</h1>
+                        <p class="text_01">Нам не важен ваш уровень подготовки, физические данные, возраст или пол — если вы стремитесь к изменениям и хотите достичь результата, мы будем рядом, чтобы вам в этом помочь.</p>
+                        <p class="text_02">Пусть гибкое и здоровое тело, красивая осанка и стройная фигура станут не мечтой, а реальностью.</p>
+                        <div class="cube"><img data-aos="zoom-in"
+                                                data-aos-once="true"
+                                                ata-aos-duration="3000"
+                                                data-aos-offset="350"
+                                                 src="/Photo/woman_music.png"></div>
+                    </div>
+
+                    <div class="container_2">
+                        <h1
+                            >НАША СТУДИЯ - ЭТО</h1>
+                        <div class="grid">
+                            <div
+                            data-aos="fade-right"
+                            data-aos-once="true"
+                            data-aos-duration="1000"
+                            data-aos-offset="200"
+                            ><p>НЕБОЛЬШИЕ ГРУППЫ</p></div>
+                            <div
+                            data-aos="fade-left"
+                            data-aos-once="true"
+                            data-aos-duration="1000"
+                            data-aos-offset="200"><p>МЕТОД ЗДОРОВОГО ФИТНЕСА</p></div>
+                            <div
+                            data-aos="fade-right"
+                            data-aos-once="true"
+                            data-aos-duration="1000"
+                            data-aos-offset="200"><p>БОЛЬШОЙ ВЫБОР СТУДИЙ</p></div>
+                            <div
+                             data-aos="fade-left"
+                            data-aos-once="true"
+                            data-aos-duration="1000"
+                            data-aos-offset="200"><p>ОПЫТНЫЕ ТРЕНЕРЫ</p></div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="direction">
+                    <h1>ВЫБЕРИ НАПРАВЛЕНИЕ</h1>
+                    <div class="flexbox">
+                        <a href="#!"><img src="/Photo/Карточки/Направление_1.png"></a>
+                        <img src="/Photo/Карточки/Направление_2.png">
+                        <img src="/Photo/Карточки/Направление_5.png">
+                        <img src="/Photo/Карточки/Направление_3.png">
+                        <img src="/Photo/Карточки/Направление_4.png">
+                        <img src="/Photo/Карточки/Направление_6.png">
+                    </div>
+                </section>
+
+                <section class="stydioList">
+                    <h1>ВЫБЕРИ СВОЮ СТУДИЮ</h1>
+
+                    <div class="stydio_1">
+                        <img src="/Photo/Stydio/stydio_1.png">
+                        <H3 class="heading_1">АДРЕС СТУДИИ</H3>
+                        <H4>Москва</H4>
+                        <P class="adress">м. Семеновская, Ул. Малая Cеменовская 30 стр. 8</P>
+                        <H3 class="heading_2">ГРАФИК РАБОТЫ</H3>
+                        <p class="chart_1">Пн–Пт: 10:00-22:00</p>
+                        <p class="chart_2">Cб–Вс 10:00-18:00</p>
+                        <button><span class="text">ПОДРОБНЕЕ</span></button>
+                    </div>
+
+                     <div class="stydio_1">
+                        <img src="/Photo/Stydio/stydio_2.png">
+                        <H3 class="heading_1">АДРЕС СТУДИИ</H3>
+                        <H4>Москва</H4>
+                        <P class="adress">м. Таганская, ул. Таганская 3, ТЦ «Таганский Пассаж», 4 этаж</P>
+                        <H3 class="heading_2">ГРАФИК РАБОТЫ</H3>
+                        <p class="chart_1">Пн–Пт: 10:00-22:00</p>
+                        <p class="chart_2">Cб–Вс 10:00-18:00</p>
+                        <button><span class="text">ПОДРОБНЕЕ</span></button>
+                    </div>
+
+                     <div class="stydio_1">
+                        <img src="/Photo/Stydio/stydio_3.png">
+                        <H3 class="heading_1">АДРЕС СТУДИИ</H3>
+                        <H4>Москва</H4>
+                        <P class="adress">м. Мичуринский проспект, Лобачевского,37/1, 3 этаж</P>
+                        <H3 class="heading_2">ГРАФИК РАБОТЫ</H3>
+                        <p class="chart_1">Пн–Пт: 09:00-22:00</p>
+                        <p class="chart_2">Cб–Вс 09:00-17:00</p>
+                        <button><span class="text">ПОДРОБНЕЕ</span></button>
+                    </div>
+
+                     <div class="stydio_1">
+                        <img src="/Photo/Stydio/stydio_4.png">
+                        <H3 class="heading_1">АДРЕС СТУДИИ</H3>
+                        <H4>Москва</H4>
+                        <P class="adress">м. Новослободская , ул.Краснопролетарская 16 с2</P>
+                        <H3 class="heading_2">ГРАФИК РАБОТЫ</H3>
+                        <p class="chart_1">Пн–Пт: 08:00-22:00</p>
+                        <p class="chart_2">Сб-Вс: 10:00-17:00</p>
+                        <button><span class="text">ПОДРОБНЕЕ</span></button>
+                    </div>
+
+                    <div class="action">
+                    <img src="/Photo/woman_action.png">
+                    <div class="box">
+                        <H2 class="discount_1">-50%</H2>
+                        <H2 class="discount_1">-20%</H2>
+                        <p class="text_1">на первое занятие</p>
+                        <p class="text_1">на абонемент</p>
+                        <button class="button_1"><span>ПОДРОБНЕЕ</span></button>
+                        <button class="button_2"><span>АБОНЕМЕНТЫ</span></button>
+                    </div>
+                </div>
+
+                </section>
+
+                <section class="splide" aria-labelledby="carousel-heading">
+                    <H1>ОТЗЫВЫ</H1>
+                        <div class="splide__arrows">  
+                            <button class="splide__arrow splide__arrow--prev"><img src="/Icons/arrow.png"></button>  
+                            <button class="splide__arrow splide__arrow--next"><img src="/Icons/arrow — копия.png"></button>  
+                        </div>
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_1.png'>
+                            <p>Избавилась от болей в спине, начала меньше сутулиться. Плечи выпрямились. Ощущаю легкость. Продолжаю работать над дыханием</p>
+                            <h3>Карина</h3>
+                        </li>
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_2.png'>
+                            <p>Избавилась от боли в спине, которая мучала меня около 10 лет. Исправила искривление позвоночника, стала более гибкой и пластичной</p>
+                            <h3>Эльвира</h3>
+                        </li>
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_3.png'>
+                            <p>После тренировок чувствую прилив энергии и уверенность в себе. Спасибо тренерам за индивидуальный подход!</p>
+                            <h3>Николай</h3>
+                        </li>
+                       
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_4.png'>
+                            <p>Хожу уже полтора месяца, очень нравится! Студия камерная, уютная, все новенькое) тренировки на любую хотелку - и растяжка, и очень бодрый фитнес, и йога.</p>
+                            <h3>София</h3>
+                        </li>
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_5.png'>
+                            <p>После месяца занятий  моя спина перестала болеть после сидячей работы, я стал лучше высыпаться, а силовые тренировки в зале даются гораздо легче. </p>
+                            <h3>Роман</h3>
+                        </li>
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_6.jpg'>
+                            <p>Занималась месяц с тренером Викторией - очень профессиональный, заботливый, красивый тренер,классно подтянула тело</p>
+                            <h3>Лидия</h3>
+                        </li>
+                        <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_8.jpg'>
+                            <p>Отличная, современная студия, в которой занятия проходят в небольших группах и тренер может уделить внимание каждому</p>
+                            <h3>Артём</h3>
+                        </li>
+                         <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_9.jpg'>
+                            <p>Хороший клуб, квалифицированные тренера. Приятно заниматься в светлых и чистых залах. Так держать</p>
+                            <h3>Юрий</h3>
+                        </li>
+                         <li class="splide__slide">
+                            <img src='/Photo/Rewies/photo_7.jpg'>
+                            <p>Наконец-то нашла то что искала рядом с домом, комфортная и приятная эстетичная атмосфера, отличные тренеры и самое главное для меня-удобное расписание !</p>
+                            <h3>Алиса</h3>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                </section>
+
+                <section class="form">
+                    <div class="container_3">
+                        <div class="formContent">
+                            <img src="/Photo/woman_form.png">
+                            <H2>НЕ МОЖЕТЕ ВЫБРАТЬ НАПРАВЛЕНИЕ?</H2>
+                            <P>заполните форму и наш менеджер свяжется с вами</P>
+                            <input  id="FIO" type="text" name="username" placeholder="Имя Фамилия" >
+                            <P class="error_1">Введите имя и фамилию через пробел (только буквы)</P>
+                            <input id="number" type="text" name="username" placeholder="+7-999-99-99">
+                            <P class="error_2">Введите номер телефона в формате +7-999-999-99-99</P>
+                            <button type="submit" id="sendBtn"><span class="text">ОТПРАВИТЬ</span></button>
+
+                            
+                        </div>
+                    </div>
+                </section>
+
+                
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-styles">
+            <div class="footer-content">
+                <img id="telegram" src="/Icons/Telegram.png">
+                <img id="whatsapp" src="/Icons/Whatsapp.png">
+                <p id="text_footer">© 2025 TSFITNESS</p>
+
+                <div class="grid_footer">
+                    <div class="column" id="column_adress">
+                        <h6>КОНТАКТЫ</h6>
+                        <P id="contact">ts_fitness@mail.ru</P>
+                        <P id="contact">+7 (966) 869-94-46</P>
+                        <P>м. Семеновская,
+                            Ул. Малая Cеменовская 30 стр. 8</P>
+                        <P>м. Мичуринский проспект,
+                            Лобачевского,37/1, 3 этаж</P>
+                        <P>м. Таганская, ул. Таганская 3,
+                            ТЦ «Таганский Пассаж», 4 этаж</P>
+                        <P>м. Новослободская ,
+                            ул.Краснопролетарская 16 с2</P>
+                    </div>
+                    <div class="column">
+                        <h6>ПОПРОБОВАТЬ</h6>
+                        <P>Записаться на пробное занятие</P>
+                        <P>Абонементы</P>
+                        
+                    </div>
+                    <div class="column" id="column_3">
+                        <h6>ИНФОРМАЦИЯ</h6>
+                        <P>Политика конфиденциальности</P>
+                        <P>Публичная оферта</P>
+                        <P>Правила</P>
+                        <P>Договор-оферта о проведении розыгрыша</P>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="javascript.js"></script>
+<script src="prob.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/splide-4.1.3/dist/js/splide.min.js"></script>
+
+<!-- Подключаем библиотеку -->
+
+
+<!-- Инициализация -->
+<script>
+var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage: 3,
+  focus  : 'center',
+  fixedWidth : 350,
+  pagination: false
+  
+} );
+
+
+
+splide.mount();
+</script>
+<script>
+  AOS.init();
+</script>
+</html>

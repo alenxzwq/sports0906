@@ -1,0 +1,2721 @@
+@font-face {
+    font-family: 'PionerSans8-VF.ttf';
+    src: url(PionerSans8-VF.ttf);
+}
+
+:root{
+    --btn-color: #F1745A;
+    
+}
+
+html, body {
+    overflow-x: hidden; /* Отключаем горизонтальный скролл для всей страницы */
+    width: 100%; /* Фиксируем ширину */
+    max-width: 100%; /* Запрещаем расширение */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'PionerSans8-VF.ttf';
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-styles{
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.nav_el{
+    color: #000000;
+    box-shadow: inset 0 0 0 0 var(--btn-color);
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav_el:hover{
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 var(--btn-color);
+}
+
+
+
+
+.logo{
+    font-size: 40px;
+    padding-left: 110px;
+}
+
+.number_phone{
+    font-size: 22px;
+    padding-left: 90px;
+}
+
+.icons_wp{
+    width: 45px;
+    height: 45px;
+    
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.icons_tg{
+    width: 45px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 140px;
+    cursor: pointer;
+}
+
+.dropdown {
+position: relative; /* Относительное позиционирование для родителя */
+}
+
+.optional_menu {
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute; /* Абсолютное позиционирование для выпадающего меню */
+top: 100%; /* Размещение под пунктом меню */
+left: 0;
+background-color: #fff; /* Цвет фона меню */
+border: 1px solid #ccc; /* Граница меню */
+border-radius: 5px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Тень */
+z-index: 3; /* Убедитесь, что меню находится поверх других элементов */
+display: none; /* Скрыто по умолчанию */
+min-width: 160px; /* Минимальная ширина меню */
+}
+
+.dropdown:hover .optional_menu {
+display: block; /* Показываем меню при наведении на родительский элемент */
+}
+
+.optional_menu li a {
+display: block;
+padding: 10px 15px;
+text-decoration: none;
+color: #333; /* Цвет текста */
+font-size: 24px;
+}
+
+.optional_menu li a:hover {
+background-color: #F1745A; /* Цвет фона при наведении на пункт меню */
+}
+
+.main-content{
+    width: 100%;
+    background-color: #fff;
+    height: 2600px;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 747px;
+    height: 630px;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 50px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 200px;
+    left: 100px;
+    font-size: 35PX;
+    padding-right: 50%;
+
+}
+
+#text_02{
+    top: 280px;
+    left: 100px;
+    font-size: 35PX;
+    padding-right: 50%;
+    line-height: 30PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-size: 40PX;
+    padding-right: 50%;
+    font-weight: 600;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    font-size: 35PX;
+    line-height: 35px;
+    padding-right: 50%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    font-size: 40PX;
+    
+    font-weight: 600;
+
+}
+
+.coaching_staff{
+    margin-top: 12%;
+}
+
+.coaching_staff h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 11%;
+}
+
+.container_coaching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 5%;
+}
+
+.cart_coaching{
+    position: relative;
+    width: 357px;
+    height: 509px;
+    border-radius: 5px;
+
+}
+
+
+.cart_coaching img{
+    
+    width: 357px;
+    height: 509px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+.cart_coaching h6{
+    position: absolute;
+    font-size: 30px;
+    padding-left: 60%;
+    top: 15px;
+    right: 25px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#text_left{
+    padding-left: 4%;
+    
+    padding-right: 50%;
+    text-align: left;
+}
+
+.frame{
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--btn-color);
+    
+}
+
+.frame p{
+    padding-top: 2%;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 28px;
+
+    
+}
+
+.footer-styles{
+    overflow: hidden;
+    height: 520px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#telegram{
+    position: absolute;
+    left: 250px;
+    
+}
+
+#whatsapp{
+    position: absolute;
+    left: 170px;
+}
+
+#text_footer{
+    position: absolute;
+    left: 170px;
+    font-size: 25px;
+    top: 120px;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 350PX);
+    right: 1PX;
+    top: 40px;
+}
+
+.column h6{
+    font-size: 25px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.slider {
+    width: 400px; /* Явно задаем ширину */
+    height: 440px;
+    display: flex;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; /* Это скрывает все, что выходит за пределы контейнера */
+}
+
+.slider h1{
+    position: absolute;
+    align-self: flex-start;
+    font-weight: 500;
+    bottom: 200px;
+    left: 60px;
+    font-size: 50px;
+}
+
+.slider .text_trener_1{
+    position: absolute;
+    bottom: 140px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_2{
+    position: absolute;
+    bottom: 80px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_3{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+    padding-right: 15%;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slide {
+    min-width: 100%; /* каждый слайд будет занимать 100% ширины контейнера */
+    height: 400px;
+    
+    position: absolute; /* Сделаем слайды абсолютно позиционированными */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Скрываем слайды по умолчанию */
+    visibility: hidden; /* Слайды будут невидимы */
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; /* Плавный переход */
+}
+
+.slide.active {
+    opacity: 1; /* Делаем активный слайд видимым */
+    visibility: visible; /* Показываем активный слайд */
+}
+
+
+.slide img{
+    position: absolute;
+    top: 20px;
+    align-self: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+
+}
+
+
+
+
+.arrow{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.arrow-right{
+    
+    right: -15px;
+}
+
+.arrow-left{
+    left: -15px;
+}
+
+
+.trener_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.5s ease-out; /* Анимация перехода */
+    pointer-events: none;
+    
+    
+}
+
+.trener_card.show {
+    opacity: 1; /* Полная видимость */
+    pointer-events: auto; /* Включаем взаимодействия */
+}
+
+/* Эффект появляется только при наличии класса show */
+.trener_card.show {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9); /* Немного уменьшаем масштаб */
+        opacity: 0;
+    }
+    to {
+        transform: scale(1); /* Возвращаемся к исходному размеру */
+        opacity: 1;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    top: 20px;
+    width: 500px;
+    height: 700px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7),
+              inset 0 0 50px rgba(255, 255, 255, 0.7);
+    margin: auto; /* Добавляем автоматические отступы */
+}
+
+#container_1{
+    background: radial-gradient(82.94% 367.96% at 26.22% 31.42%, #FEFFF2 0%, #FFFAE8 0%, rgba(255, 222, 200, 0.995074) 31.85%, rgba(255, 156, 176, 0.991308) 90.84%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+#container_2{
+    background: radial-gradient(100.54% 139.72% at 50% 50%, #CCFFF4 0%, #B6F0DA 22.88%, #AAE8E9 81.25%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_3{
+    background: radial-gradient(85.47% 85.47% at 50% 50%, #EAF5FF 0%, #96DFFF 67.95%, #87BAE5 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_4{
+background: radial-gradient(69.38% 95.43% at 50% 46%, #EDFECF 0%, #FFEBB7 68.25%, #BBF9B6 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
+
+
+#container_5{
+    background: radial-gradient(47.07% 71.74% at 50% 46%, #FFF5FA 0%, #FFECD5 43.49%, #FFC4AD 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_6{
+    background: conic-gradient(from -13.07deg at 50% 50%, #A4D6FF -24.72deg, #EAF5FF 98.74deg, #A7FFF8 185.34deg, #A4D6FF 335.28deg, #EAF5FF 458.74deg);
+}
+.container h1{
+    position: absolute;
+    left: 45px;
+    bottom: 210px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.container p{
+    font-size: 30px;
+    position: absolute;
+    line-height: 25px;
+}
+
+.container .text_trener_1{
+    
+    left: 45px;
+    bottom: 150px;
+}
+
+.container .text_trener_2{
+    
+    left: 45px;
+    bottom: 85px;
+}
+
+.container .text_trener_3{
+    padding-right: 15%;
+    font-weight: 550;
+    left: 45px;
+    bottom: 20px;
+}
+
+
+.container .icon{
+    position: absolute;
+    right: -50px;
+    top: -20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.menu_mobile{
+    display: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.header_mobile{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: end;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: right 0.3s ease;
+    z-index: 100;
+}
+
+.header_mobile.open{
+    right: 0;
+}
+
+.header_mobile ul{
+    list-style-type: none;
+    text-align: right;
+    
+    font-size: 30px;
+}
+
+.header_mobile li{
+    gap: 55px;
+
+}
+
+.number_phone_mobile{
+    font-size: 25px;
+    align-self: flex-start;
+    padding-top: 15%;
+}
+
+.flexbox_mobile{
+    display: flex;
+    gap: 20px;
+    padding-top: 15%;
+}
+
+.icons_wp_mobile{
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+}
+
+
+.icons_tg_mobile{
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 250px) and (max-width: 376px){
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.slider {
+    width: 300px; /* Явно задаем ширину */
+    height: 350px;
+    display: flex;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; /* Это скрывает все, что выходит за пределы контейнера */
+}
+
+.slider h1{
+    position: absolute;
+    align-self: flex-start;
+    font-weight: 500;
+    bottom: 200px;
+    left: 60px;
+    font-size: 50px;
+}
+
+.slider .text_trener_1{
+    position: absolute;
+    bottom: 140px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_2{
+    position: absolute;
+    bottom: 80px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_3{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+    padding-right: 15%;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slide {
+    min-width: 100%; /* каждый слайд будет занимать 100% ширины контейнера */
+    height: 270px;
+    
+    position: absolute; /* Сделаем слайды абсолютно позиционированными */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Скрываем слайды по умолчанию */
+    visibility: hidden; /* Слайды будут невидимы */
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; /* Плавный переход */
+}
+
+.slide.active {
+    opacity: 1; /* Делаем активный слайд видимым */
+    visibility: visible; /* Показываем активный слайд */
+}
+
+
+.slide img{
+    position: absolute;
+    top: 20px;
+    align-self: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-right{
+    right: -15px;
+}
+
+.arrow-left{
+    left: -15px;
+}
+
+
+.trener_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.5s ease-out; /* Анимация перехода */
+    pointer-events: none;
+    
+    
+}
+
+.trener_card.show {
+    opacity: 1; /* Полная видимость */
+    pointer-events: auto; /* Включаем взаимодействия */
+}
+
+/* Эффект появляется только при наличии класса show */
+.trener_card.show {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9); /* Немного уменьшаем масштаб */
+        opacity: 0;
+    }
+    to {
+        transform: scale(1); /* Возвращаемся к исходному размеру */
+        opacity: 1;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    top: 20px;
+    width: 310px;
+    height: 620px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7),
+              inset 0 0 50px rgba(255, 255, 255, 0.7);
+    margin: auto; /* Добавляем автоматические отступы */
+}
+
+#container_1{
+    background: radial-gradient(82.94% 367.96% at 26.22% 31.42%, #FEFFF2 0%, #FFFAE8 0%, rgba(255, 222, 200, 0.995074) 31.85%, rgba(255, 156, 176, 0.991308) 90.84%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+#container_2{
+    background: radial-gradient(100.54% 139.72% at 50% 50%, #CCFFF4 0%, #B6F0DA 22.88%, #AAE8E9 81.25%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_3{
+    background: radial-gradient(85.47% 85.47% at 50% 50%, #EAF5FF 0%, #96DFFF 67.95%, #87BAE5 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_4{
+background: radial-gradient(69.38% 95.43% at 50% 46%, #EDFECF 0%, #FFEBB7 68.25%, #BBF9B6 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
+
+
+#container_5{
+    background: radial-gradient(47.07% 71.74% at 50% 46%, #FFF5FA 0%, #FFECD5 43.49%, #FFC4AD 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_6{
+    background: conic-gradient(from -13.07deg at 50% 50%, #A4D6FF -24.72deg, #EAF5FF 98.74deg, #A7FFF8 185.34deg, #A4D6FF 335.28deg, #EAF5FF 458.74deg);
+}
+.container h1{
+    position: absolute;
+    left: 5px;
+    bottom: 220px;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.container p{
+    
+    font-size: 22px;
+    position: absolute;
+    line-height: 25px;
+}
+
+.container .text_trener_1{
+    
+    left: 5px;
+    bottom: 150px;
+}
+
+.container .text_trener_2{
+    
+    left: 5px;
+    bottom: 100px;
+}
+
+.container .text_trener_3{
+    padding-right: 15%;
+    font-weight: 550;
+    left: 5px;
+    bottom: 20px;
+}
+
+
+.container .icon{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+        .header-styles{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.navigation{
+
+    display: none;
+}
+
+.nav_el{
+    display: none;
+}
+
+
+
+
+.menu_mobile{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    left: 15PX;
+    top: 20%;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.number_phone{
+    display: none;
+}
+
+.icons_wp{
+    display: none;
+}
+
+.icons_tg{
+    display: none;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    display: none;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 30px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 140px;
+    left: 10px;
+    font-size: 25PX;
+    padding-right: 30%;
+
+}
+
+#text_02{
+    top: 230px;
+    left: 10px;
+    font-size: 25PX;
+    padding-right: 30%;
+    line-height: 25PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    padding-right: 10%;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-size: 25PX;
+    line-height: 25px;
+    padding-right: 10%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    font-size: 30PX;
+    
+    font-weight: 600;
+
+}
+
+.coaching_staff{
+    margin-top: 20%;
+}
+
+.coaching_staff h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 1%;
+}
+
+.container_coaching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 5%;
+}
+
+.cart_coaching{
+    position: relative;
+    width: 307px;
+    height: 459px;
+    background-color: #87BAE5;
+    border-radius: 5px;
+
+}
+
+.cart_coaching img{
+     width: 307px;
+    height: 459px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart_coaching h6{
+    position: absolute;
+    font-size: 25px;
+    padding-left: 60%;
+    top: 15px;
+    right: 25px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#text_left{
+    padding-left: 4%;
+    
+    padding-right: 50%;
+    text-align: left;
+}
+
+.frame{
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--btn-color);
+    
+}
+
+.frame p{
+    padding-top: 2%;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 28px;
+
+    
+}
+
+.main-styles{
+    height: 4000px;
+}
+
+.footer-styles{
+    overflow: hidden;
+    height: 820px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+
+}
+
+#telegram{
+    left: auto;
+    right: 15px;
+    
+}
+
+#whatsapp{
+    left: auto;
+    right: 75px;
+}
+
+#text_footer{
+    position: absolute;
+    left: auto;
+    right: 35px;
+    font-size: 20px;
+    top: auto;
+    bottom: 0;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: 380px 120px 1fr;
+    left: 1PX;
+    top: 40px;
+}
+
+.column h6{
+    font-size: 20px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#column_3{
+    margin-top: -75%;
+}
+}
+
+@media (min-width: 377px) and (max-width: 576px){
+
+    #top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.slider {
+    width: 300px; /* Явно задаем ширину */
+    height: 350px;
+    display: flex;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; /* Это скрывает все, что выходит за пределы контейнера */
+}
+
+.slider h1{
+    position: absolute;
+    align-self: flex-start;
+    font-weight: 500;
+    bottom: 200px;
+    left: 60px;
+    font-size: 50px;
+}
+
+.slider .text_trener_1{
+    position: absolute;
+    bottom: 140px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_2{
+    position: absolute;
+    bottom: 80px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_3{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+    padding-right: 15%;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slide {
+    min-width: 100%; /* каждый слайд будет занимать 100% ширины контейнера */
+    height: 270px;
+    
+    position: absolute; /* Сделаем слайды абсолютно позиционированными */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Скрываем слайды по умолчанию */
+    visibility: hidden; /* Слайды будут невидимы */
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; /* Плавный переход */
+}
+
+.slide.active {
+    opacity: 1; /* Делаем активный слайд видимым */
+    visibility: visible; /* Показываем активный слайд */
+}
+
+
+.slide img{
+    position: absolute;
+    top: 20px;
+    align-self: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-right{
+    right: -15px;
+}
+
+.arrow-left{
+    left: -15px;
+}
+
+
+.trener_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.5s ease-out; /* Анимация перехода */
+    pointer-events: none;
+    
+    
+}
+
+.trener_card.show {
+    opacity: 1; /* Полная видимость */
+    pointer-events: auto; /* Включаем взаимодействия */
+}
+
+/* Эффект появляется только при наличии класса show */
+.trener_card.show {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9); /* Немного уменьшаем масштаб */
+        opacity: 0;
+    }
+    to {
+        transform: scale(1); /* Возвращаемся к исходному размеру */
+        opacity: 1;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    top: 20px;
+    width: 370px;
+    height: 620px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7),
+              inset 0 0 50px rgba(255, 255, 255, 0.7);
+    margin: auto; /* Добавляем автоматические отступы */
+}
+
+#container_1{
+    background: radial-gradient(82.94% 367.96% at 26.22% 31.42%, #FEFFF2 0%, #FFFAE8 0%, rgba(255, 222, 200, 0.995074) 31.85%, rgba(255, 156, 176, 0.991308) 90.84%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+#container_2{
+    background: radial-gradient(100.54% 139.72% at 50% 50%, #CCFFF4 0%, #B6F0DA 22.88%, #AAE8E9 81.25%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_3{
+    background: radial-gradient(85.47% 85.47% at 50% 50%, #EAF5FF 0%, #96DFFF 67.95%, #87BAE5 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_4{
+background: radial-gradient(69.38% 95.43% at 50% 46%, #EDFECF 0%, #FFEBB7 68.25%, #BBF9B6 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
+
+
+#container_5{
+    background: radial-gradient(47.07% 71.74% at 50% 46%, #FFF5FA 0%, #FFECD5 43.49%, #FFC4AD 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_6{
+    background: conic-gradient(from -13.07deg at 50% 50%, #A4D6FF -24.72deg, #EAF5FF 98.74deg, #A7FFF8 185.34deg, #A4D6FF 335.28deg, #EAF5FF 458.74deg);
+}
+.container h1{
+    position: absolute;
+    left: 5px;
+    bottom: 220px;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.container p{
+    
+    font-size: 22px;
+    position: absolute;
+    line-height: 25px;
+}
+
+.container .text_trener_1{
+    
+    left: 5px;
+    bottom: 150px;
+}
+
+.container .text_trener_2{
+    
+    left: 5px;
+    bottom: 100px;
+}
+
+.container .text_trener_3{
+    padding-right: 15%;
+    font-weight: 550;
+    left: 5px;
+    bottom: 20px;
+}
+
+
+.container .icon{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+    
+
+        .header-styles{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.navigation{
+
+    display: none;
+}
+
+.nav_el{
+    display: none;
+}
+
+
+
+
+.menu_mobile{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    left: 15PX;
+    top: 20%;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.number_phone{
+    display: none;
+}
+
+.icons_wp{
+    display: none;
+}
+
+.icons_tg{
+    display: none;
+}
+
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    display: none;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 30px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 140px;
+    left: 10px;
+    font-size: 25PX;
+    padding-right: 30%;
+
+}
+
+#text_02{
+    top: 230px;
+    left: 10px;
+    font-size: 25PX;
+    padding-right: 30%;
+    line-height: 25PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    padding-right: 10%;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-size: 25PX;
+    line-height: 25px;
+    padding-right: 10%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    font-size: 30PX;
+    
+    font-weight: 600;
+
+}
+
+.coaching_staff H1{
+    font-size: 35PX;
+    padding-left: 5%;
+}
+
+.footer-styles{
+    overflow: hidden;
+    height: 820px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+
+}
+
+#telegram{
+    left: auto;
+    right: 15px;
+    
+}
+
+#whatsapp{
+    left: auto;
+    right: 75px;
+}
+
+#text_footer{
+    position: absolute;
+    left: auto;
+    right: 35px;
+    font-size: 20px;
+    top: auto;
+    bottom: 0;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: 380px 120px 1fr;
+    left: 1PX;
+    top: 40px;
+}
+
+.column h6{
+    font-size: 20px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#column_3{
+    margin-top: -75%;
+}
+
+.main-styles{
+    height: 4500px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 775px){
+
+        #top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.slider {
+    width: 300px; /* Явно задаем ширину */
+    height: 350px;
+    display: flex;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; /* Это скрывает все, что выходит за пределы контейнера */
+}
+
+.slider h1{
+    position: absolute;
+    align-self: flex-start;
+    font-weight: 500;
+    bottom: 200px;
+    left: 60px;
+    font-size: 50px;
+}
+
+.slider .text_trener_1{
+    position: absolute;
+    bottom: 140px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_2{
+    position: absolute;
+    bottom: 80px;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slider .text_trener_3{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+    padding-right: 15%;
+    line-height: 25px;
+    left: 60px;
+    font-size: 30px;
+}
+
+.slide {
+    min-width: 100%; /* каждый слайд будет занимать 100% ширины контейнера */
+    height: 270px;
+    
+    position: absolute; /* Сделаем слайды абсолютно позиционированными */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Скрываем слайды по умолчанию */
+    visibility: hidden; /* Слайды будут невидимы */
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; /* Плавный переход */
+}
+
+.slide.active {
+    opacity: 1; /* Делаем активный слайд видимым */
+    visibility: visible; /* Показываем активный слайд */
+}
+
+
+.slide img{
+    position: absolute;
+    top: 20px;
+    align-self: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-right{
+    right: -15px;
+}
+
+.arrow-left{
+    left: -15px;
+}
+
+
+.trener_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.5s ease-out; /* Анимация перехода */
+    pointer-events: none;
+    
+    
+}
+
+.trener_card.show {
+    opacity: 1; /* Полная видимость */
+    pointer-events: auto; /* Включаем взаимодействия */
+}
+
+/* Эффект появляется только при наличии класса show */
+.trener_card.show {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9); /* Немного уменьшаем масштаб */
+        opacity: 0;
+    }
+    to {
+        transform: scale(1); /* Возвращаемся к исходному размеру */
+        opacity: 1;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    top: 20px;
+    width: 370px;
+    height: 620px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7),
+              inset 0 0 50px rgba(255, 255, 255, 0.7);
+    margin: auto; /* Добавляем автоматические отступы */
+}
+
+#container_1{
+    background: radial-gradient(82.94% 367.96% at 26.22% 31.42%, #FEFFF2 0%, #FFFAE8 0%, rgba(255, 222, 200, 0.995074) 31.85%, rgba(255, 156, 176, 0.991308) 90.84%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+#container_2{
+    background: radial-gradient(100.54% 139.72% at 50% 50%, #CCFFF4 0%, #B6F0DA 22.88%, #AAE8E9 81.25%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_3{
+    background: radial-gradient(85.47% 85.47% at 50% 50%, #EAF5FF 0%, #96DFFF 67.95%, #87BAE5 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_4{
+background: radial-gradient(69.38% 95.43% at 50% 46%, #EDFECF 0%, #FFEBB7 68.25%, #BBF9B6 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
+
+
+#container_5{
+    background: radial-gradient(47.07% 71.74% at 50% 46%, #FFF5FA 0%, #FFECD5 43.49%, #FFC4AD 95.78%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#container_6{
+    background: conic-gradient(from -13.07deg at 50% 50%, #A4D6FF -24.72deg, #EAF5FF 98.74deg, #A7FFF8 185.34deg, #A4D6FF 335.28deg, #EAF5FF 458.74deg);
+}
+.container h1{
+    position: absolute;
+    left: 5px;
+    bottom: 220px;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.container p{
+    
+    font-size: 22px;
+    position: absolute;
+    line-height: 25px;
+}
+
+.container .text_trener_1{
+    
+    left: 5px;
+    bottom: 150px;
+}
+
+.container .text_trener_2{
+    
+    left: 5px;
+    bottom: 100px;
+}
+
+.container .text_trener_3{
+    padding-right: 15%;
+    font-weight: 550;
+    left: 5px;
+    bottom: 20px;
+}
+
+
+.container .icon{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+
+    .trener_card {
+    top: 0PX;
+}
+
+       .header-styles{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.navigation{
+
+    display: none;
+}
+
+.nav_el{
+    display: none;
+}
+
+
+
+
+.menu_mobile{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    left: 45PX;
+    top: 20%;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.number_phone{
+    display: none;
+}
+
+.icons_wp{
+    display: none;
+}
+
+.icons_tg{
+    display: none;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    display: none;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 35px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 130px;
+    left: 50px;
+    font-size: 30PX;
+    padding-right: 5%;
+
+}
+
+#text_02{
+    top: 200px;
+    left: 50px;
+    font-size: 30PX;
+    padding-right: 30%;
+    line-height: 25PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 40x;
+    padding-right: 10%;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 25PX;
+    line-height: 30px;
+    padding-right: 10%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 35PX;
+    
+    font-weight: 600;
+
+}
+
+.coaching_staff h1{
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+.main-styles{
+    height: 4300PX;
+}
+
+
+.footer-styles{
+    overflow: hidden;
+    height: 820px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#telegram{
+    left: auto;
+    right: 15px;
+    
+}
+
+#whatsapp{
+    left: auto;
+    right: 75px;
+}
+
+#text_footer{
+    position: absolute;
+    left: auto;
+    right: 35px;
+    font-size: 30px;
+    top: auto;
+    bottom: 0;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: 380px 120px 1fr;
+    left: 1PX;
+    top: 40px;
+}
+
+.column h6{
+    font-size: 25px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#column_3{
+    margin-top: -75%;
+}
+}
+
+@media (min-width: 776px) and (max-width: 992px){
+        .trener_card {
+    top: 150PX;
+}
+
+        .header-styles{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.navigation{
+
+    display: none;
+}
+
+.nav_el{
+    display: none;
+}
+
+
+
+
+.menu_mobile{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    left: 45PX;
+    top: 20%;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.number_phone{
+    display: none;
+}
+
+.icons_wp{
+    display: none;
+}
+
+.icons_tg{
+    display: none;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    display: none;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 35px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 130px;
+    left: 50px;
+    font-size: 30PX;
+    padding-right: 5%;
+
+}
+
+#text_02{
+    top: 200px;
+    left: 50px;
+    font-size: 30PX;
+    padding-right: 30%;
+    line-height: 25PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 40x;
+    padding-right: 10%;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 25PX;
+    line-height: 30px;
+    padding-right: 10%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 35PX;
+    
+    font-weight: 600;
+
+}
+
+.coaching_staff H1{
+    font-size: 35PX;
+    padding-left: 5%;
+}
+
+.footer-styles{
+    overflow: hidden;
+    height: 820px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#telegram{
+    left: auto;
+    right: 55px;
+    
+}
+
+#whatsapp{
+    left: auto;
+    right: 125px;
+}
+
+#text_footer{
+    position: absolute;
+    left: auto;
+    right: 35px;
+    font-size: 20px;
+    top: auto;
+    bottom: 0;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: 350px 140px 1fr;
+
+    left: 1PX;
+    top: 40px;
+    margin-left: 3%;
+}
+
+.column h6{
+    font-size: 22px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#column_3{
+    margin-top: 0%;
+
+
+}
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+        .trener_card {
+    top: 0PX;
+}
+
+        .header-styles{
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    font-size: 27px;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.logo{
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.number_phone{
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.icons_wp{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.icons_tg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    right: -30px;
+    padding-left: 20px;
+    padding-right: 140px;
+    cursor: pointer;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    display: none;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 45px;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 130px;
+    left: 50px;
+    font-size: 35PX;
+    padding-right: 20%;
+
+}
+
+#text_02{
+    top: 220px;
+    left: 50px;
+    font-size: 35PX;
+    padding-right: 30%;
+    line-height: 25PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 40x;
+    padding-right: 10%;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 35PX;
+    line-height: 30px;
+    padding-right: 10%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 40PX;
+    
+    font-weight: 600;
+
+}
+
+
+.footer-styles{
+    overflow: hidden;
+    height: 520px;
+    width: 100%;
+    border-top: 5px solid var(--btn-color);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    
+}
+
+.footer-content img{
+    position: absolute;
+    top: auto;
+    bottom: 50PX;
+    width: 50px;
+    height: 50px;
+
+}
+
+#telegram{
+    position: absolute;
+    right: 130px;
+    left: auto;
+    
+}
+
+#whatsapp{
+    position: absolute;
+    right:  50px;
+    left: auto;
+    
+}
+
+#text_footer{
+    position: absolute;
+    right: 50px;
+    left: auto;
+    font-size: 25px;
+    top: auto;
+    bottom: 0;
+}
+
+.footer-content .grid_footer{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 330PX);
+    right: 1PX;
+    top: 40px;
+}
+
+.column h6{
+    font-size: 25px;
+    color: #00000099;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.column P{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 2%;
+    
+}
+
+#column_adress{
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+#contact{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.coaching_staff H1{
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+}
+
+@media (min-width: 1201px) and (max-width: 1520px){
+        .trener_card {
+    top: 0PX;
+}
+
+            .header-styles{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    font-size: 32px;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.logo{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.number_phone{
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.icons_wp{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    right: 60px;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.icons_tg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    right: -10px;
+    padding-left: 20px;
+    padding-right: 140px;
+    cursor: pointer;
+}
+
+.container_1{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: radial-gradient(98.73% 304.21% at 50% 50%, #E4FFF9 0%, #B6F0DA 22.88%, #AAE8E9 81.25%);
+}
+
+.container_1 img{
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+    width: 697px;
+    height: 580px;
+}
+
+.container_1 h1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 50px;
+}
+
+.coaching_staff H1{
+    font-size: 45PX;
+    padding-left: 5%;
+}
+
+
+.container_1 p{
+    position: absolute;
+}
+
+#text_01{
+    top: 200px;
+    left: 50px;
+    font-size: 35PX;
+    padding-right: 50%;
+
+}
+
+#text_02{
+    top: 280px;
+    left: 50px;
+    font-size: 35PX;
+    padding-right: 50%;
+    line-height: 30PX;
+
+}
+
+.container_1 h3{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-size: 40PX;
+    padding-right: 50%;
+    font-weight: 600;
+
+}
+
+#text_03{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 35PX;
+    line-height: 35px;
+    padding-right: 50%;
+
+}
+
+
+.container_1 h6{
+    position: absolute;
+    top: 620px;
+    left: 50px;
+    font-size: 37PX;
+    
+    font-weight: 600;
+
+}
+}
+
+@media (min-width: 1521px) and (max-width: 1920px){
+    .header-styles{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.navigation{
+    position: absolute;
+    left: 400px;
+    top: 40%;
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    padding-left: 0px;
+}
+
+.nav_el{
+    color: #000000;
+    box-shadow: inset 0 0 0 0 var(--btn-color);
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav_el:hover{
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 var(--btn-color);
+}
+
+
+
+
+.logo{
+    position: absolute;
+    left: 150px;
+    top: 30%;
+    font-size: 45px;
+    padding-left: 0px;
+}
+
+.number_phone{
+    position: absolute;
+    right: 250px;
+    top: 45%;
+    font-size: 22px;
+    padding-left: 0px;
+}
+
+.icons_wp{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    top: 30%;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.icons_tg{
+    position: absolute;
+    right: 130px;
+    top: 30%;
+    width: 50px;
+    height: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+
+}
