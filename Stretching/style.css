@@ -150,7 +150,7 @@ background-color: #F1745A; /* Цвет фона при наведении на �
     height: 600px;
     position: absolute;
     right: 40px;
-    bottom: -20px;
+    bottom: -35px;
 }
 
 .container_1 h1{
@@ -980,19 +980,11 @@ left: 10px;
 }
 
 
-.container_2 h1{
-    position: absolute;
-    left: 190px;
-    top: 250px;
-    font-size: 55px;
-    font-style: oblique;
-    padding-right: 40%;
-    line-height: 40px;
-}
+
 
 .container_2 .text_01{
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 10px;
     text-align: left;
     font-size: 25px;
@@ -1009,7 +1001,7 @@ left: 10px;
     text-align: left;
     font-size: 25px;
     left: 10px;
-    bottom: 490px;
+    bottom: 420px;
     padding-left: 1%;
     padding-right: 10%;
     line-height: 30px;
@@ -1701,7 +1693,7 @@ left: 10px;
     text-align: left;
     font-size: 25px;
     left: 10px;
-    bottom: 550px;
+    bottom: 460px;
     padding-left: 1%;
     padding-right: 10%;
     line-height: 30px;
@@ -2420,7 +2412,7 @@ left: 40px;
     text-align: left;
     font-size: 30px;
     left: 10px;
-    bottom: 550px;
+    bottom: 540px;
     padding-left: 1%;
     padding-right: 10%;
     line-height: 30px;
